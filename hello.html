@@ -1,0 +1,1721 @@
+<!DOCTYPE html>
+<html class=" js" lang="en" style="height: 100%;" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <style>
+        article,
+        aside,
+        details,
+        figcaption,
+        figure,
+        footer,
+        header,
+        hgroup,
+        main,
+        menu,
+        nav,
+        section,
+        summary {
+            display: block;
+        }
+        
+        html {
+            font-family: sans-serif;
+            -ms-text-size-adjust: 100%;
+            -webkit-text-size-adjust: 100%;
+        }
+        
+        html,
+        body {
+            min-height: 100%;
+            height: 100%;
+            padding: 0;
+            margin: 0;
+            font-size: 18px;
+        }
+        
+        body {
+            font-family: "Proxima Nova", Arial, sans-serif;
+            line-height: 27px;
+        }
+        
+        a {
+            background-color: transparent;
+        }
+        
+        a,
+        a:link,
+        a:visited {
+            text-decoration: none;
+            color: #007ac2;
+            font-family: "Proxima Nova", Arial, sans-serif;
+        }
+        
+        .layout-content {
+            margin-bottom: 60px;
+        }
+        
+        .hidden {
+            display: none;
+        }
+        
+        .hero-layout {
+            overflow: hidden;
+            position: relative;
+        }
+        /* @media all and (min-width:48em) */
+        
+        .page-paragraphs {
+            width: 100%;
+        }
+        
+        .landing-paragraphs>div>div>div {
+            padding: 40px 0;
+        }
+        
+        .page-paragraphs-in>div>div:nth-of-type(1) {
+            padding: 80px 0 40px 0;
+        }
+        
+        .paragraph--type--webny-card-paragraph-type {
+            font-size: 18px;
+            max-width: 75em;
+            margin: 0 auto;
+        }
+        
+        .paragraph {
+            display: block;
+        }
+        
+        .paragraph {
+            display: block;
+        }
+        
+        .paragraph--type--webny-get-involved-pgtype {
+            background-color: #d5820d;
+            margin: 0 auto;
+            text-align: center;
+            padding: 80px 0;
+            position: relative;
+        }
+        
+        .paragraph--type--webny-wysiwyg-pgtype {
+            background-color: #fff;
+        }
+        
+        .paragraph {
+            display: block;
+        }
+        
+        .paragraph {
+            display: block;
+        }
+        
+        .paragraph {
+            display: block;
+        }
+        
+        .paragraph--type--webny-get-involved-pgtype.secondary {
+            background-color: #128ec3;
+        }
+        
+        .get-involved--field-webny-get-involved-title {
+            font: bold 16px "Oswald", Arial, sans-serif;
+            color: #000;
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        
+        .paragraph--type--webny-get-involved-pgtype.secondary .get-involved--field-webny-get-involved-title {
+            color: #000;
+        }
+        
+        .get-involved--field-webny-get-inv-headline {
+            font: bold 1.8rem "Proxima Nova", Arial, sans-serif;
+            color: #24387e;
+            text-align: center;
+            margin-bottom: 2rem;
+            line-height: 1.25em;
+        }
+        
+        .front .get-involved--field-webny-get-inv-headline {
+            font: 800 2.22em "Proxima Nova", Arial, sans-serif;
+        }
+        
+        .paragraph--type--webny-get-involved-pgtype.secondary .get-involved--field-webny-get-inv-headline {
+            color: #fff;
+        }
+        
+        .get-involved--field-webny-get-inv-description {
+            font-family: "Proxima Nova", Arial, sans-serif;
+            font-size: 16px;
+            line-height: 22px;
+            text-align: center;
+            padding: 0 8%;
+            margin: 0 auto;
+        }
+        /* @media all and (min-width:48em) */
+        
+        .get-involved--field-webny-get-inv-description {
+            max-width: 75em;
+        }
+        
+        .get-involved--cta-wrapper>div {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -ms-flex-flow: column;
+            flex-flow: column;
+            max-width: 410px;
+            margin: auto;
+        }
+        /* @media all and (min-width:48em) */
+        
+        .get-involved--cta-wrapper>div {
+            -webkit-box-orient: horizontal;
+            -webkit-box-direction: normal;
+            -ms-flex-flow: row;
+            flex-flow: row;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            max-width: none;
+        }
+        
+        .get-involved--field-webny-get-inv-cta {
+            margin: 40px 1% 0 1%;
+            -webkit-box-flex: 1;
+            -ms-flex-positive: 1;
+            flex-grow: 1;
+            width: 400px;
+            max-width: 450px;
+            text-align: center;
+            border: 1px solid #000;
+        }
+        /* @media all and (min-width:48em) */
+        
+        .get-involved--field-webny-get-inv-cta {
+            margin: 40px 1% 0 1%;
+        }
+        
+        .paragraph--type--webny-get-involved-pgtype.secondary .get-involved--field-webny-get-inv-cta {
+            border: 1px solid #fff;
+        }
+        
+        .get-involved--field-webny-get-inv-cta a {
+            color: #000;
+            background-color: transparent;
+        }
+        
+        .get-involved--field-webny-get-inv-cta a {
+            padding: 13px 20px;
+            min-width: 175px;
+            font-size: 14px;
+            font-weight: bold;
+            letter-spacing: 2px;
+            text-decoration: none;
+            cursor: pointer;
+            width: auto;
+            display: inline-block;
+            text-transform: uppercase;
+            text-align: center;
+            margin: 0 auto;
+        }
+        /* @media all and (min-width:20em) */
+        
+        .get-involved--field-webny-get-inv-cta a {
+            display: block;
+        }
+        /* @media all and (min-width:30em) */
+        
+        .get-involved--field-webny-get-inv-cta a {
+            max-width: 450px;
+            display: inline-block;
+        }
+        
+        .paragraph--type--webny-get-involved-pgtype.secondary .get-involved--field-webny-get-inv-cta a {
+            color: #fff;
+        }
+        
+        .paragraph--type--webny-card-paragraph-type>div {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-wrap: nowrap;
+            flex-wrap: nowrap;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            -webkit-box-pack: start;
+            -ms-flex-pack: start;
+            justify-content: flex-start;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+        }
+        /* @media all and (min-width:461px) */
+        
+        .paragraph--type--webny-card-paragraph-type>div {
+            -webkit-box-orient: horizontal;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+            flex-direction: row;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        }
+        
+        .paragraph--type--webny-card-paragraph-type>div>div {
+            border: 1px solid #e4e4e4;
+            font-size: 90%;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            margin: .5rem;
+        }
+        /* @media all and (min-width:461px) */
+        
+        .paragraph--type--webny-card-paragraph-type>div>div {
+            width: 100%;
+        }
+        /* @media all and (min-width:48em) */
+        
+        .paragraph--type--webny-card-paragraph-type>div>div {
+            width: 30%;
+            max-width: 400px;
+        }
+        
+        .webny-card {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            -webkit-box-flex: 1;
+            -ms-flex-positive: 1;
+            flex-grow: 1;
+        }
+        
+        .webny-card .webny-card-cta {
+            padding: .75em 1em;
+            background-color: #f6f8f8;
+            border-top: 1px solid #e4e4e4;
+            letter-spacing: 1px;
+        }
+        
+        [class^='icon-'],
+        [class*=' icon-'] {
+            font-family: "icomoon";
+            speak: none;
+            font-style: normal;
+            font-weight: normal;
+            font-variant: normal;
+            text-transform: none;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+        
+        [class^='icon-'],
+        [class*=' icon-'] {
+            font-family: "icomoon";
+            speak: none;
+            font-style: normal;
+            font-weight: normal;
+            font-variant: normal;
+            text-transform: none;
+            line-height: 1;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+        
+        [class^='icon-'],
+        [class*=' icon-'] {
+            font-family: "icomoon";
+            speak: none;
+            font-style: normal;
+            font-weight: normal;
+            font-variant: normal;
+            text-transform: none;
+            line-height: 1;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+        
+        .webny-card .webny-card-cta .icon-right-caret {
+            font-weight: bold;
+            color: #24387e;
+        }
+        
+        .webny-card .webny-card-cta a {
+            padding-left: 5px;
+            font-size: 13px;
+            text-transform: uppercase;
+            text-decoration: none;
+            color: #000;
+        }
+        
+        .card-content {
+            min-height: 325px;
+            display: block;
+        }
+        
+        .card-content-top {
+            -webkit-box-flex: 0;
+            -ms-flex: 0 1 5em;
+            flex: 0 1 5em;
+        }
+        
+        body p {
+            margin: 3px 0 10px;
+        }
+        
+        .webny-card .webny-card-description p,
+        .webny-card .webny-card-teaser {
+            padding: .5rem 1rem;
+            vertical-align: top;
+            font-size: 16px;
+            line-height: 22px;
+            min-height: 125px;
+        }
+        
+        h1 {
+            font-size: 2em;
+            margin: .67em 0;
+        }
+        
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            color: #24387e;
+            font-weight: bold;
+            padding: 0 0 .3em;
+            margin: 0;
+            line-height: 1.25em;
+        }
+        
+        h1 {
+            font-size: 48px;
+        }
+        
+        .webny-card h1 {
+            padding: 1.25rem 1rem .5rem 1rem;
+            font-size: 20px;
+            line-height: 1.2em;
+            -webkit-box-flex: 1;
+            -ms-flex: 1 0 auto;
+            flex: 1 0 auto;
+            font-weight: 400;
+            min-height: 2.25em;
+        }
+        
+        .webny-card h1 a:link {
+            color: #007ac2;
+        }
+        
+        .card-image {
+            height: 225px;
+            width: 100%;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        
+        h2 {
+            font-size: 42px;
+        }
+        
+        .webny-card-frame-inner h2 {
+            text-align: center;
+            line-height: 1;
+            padding: 0;
+        }
+        
+        .webny-card-frame-inner h2 .frame-title {
+            font: bold 16px "Oswald", Arial, sans-serif;
+            letter-spacing: 2px;
+            color: #24387e;
+            text-transform: uppercase;
+        }
+        
+        .front .frame-headline {
+            font: 800 2.22em "Proxima Nova", Arial, sans-serif;
+        }
+        
+        .webny-card-frame-inner h2 .frame-headline {
+            font: bold 1.8rem "Proxima Nova", Arial, sans-serif;
+            color: #000;
+            display: block;
+            margin-bottom: 0.3em;
+        }
+        
+        .front .webny-card-frame-inner h2 .frame-headline {
+            font: 800 40px/1 "Proxima Nova", Arial, sans-serif;
+        }
+        
+        .wysiwyg--field-webny-wysiwyg-title,
+        .wysiwyg--field-webny-wysiwyg-headline,
+        .wysiwyg--field-webny-wysiwyg-body {
+            max-width: 75em;
+            margin: 0 auto;
+        }
+        
+        .wysiwyg--field-webny-wysiwyg-title {
+            font: bold 16px "Oswald", Arial, sans-serif;
+            color: #24387e;
+            text-align: center;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+        
+        .wysiwyg--field-webny-wysiwyg-headline {
+            color: #000;
+            font: bold 1.8rem "Proxima Nova", Arial, sans-serif;
+            text-align: center;
+            line-height: 1.75em;
+            margin-bottom: 15px;
+        }
+        
+        .front .wysiwyg--field-webny-wysiwyg-headline {
+            font: 800 2.22em "Proxima Nova", Arial, sans-serif;
+            line-height: 1.25em;
+        }
+        
+        .wysiwyg--field-webny-wysiwyg-body {
+            color: #000;
+            font-size: 16px;
+            line-height: 22px;
+        }
+        /* @media all and (min-width:30em) */
+        
+        .wysiwyg--field-webny-wysiwyg-body {
+            font-size: 18px;
+        }
+        
+        .landing-paragraphs .wysiwyg--field-webny-wysiwyg-body {
+            padding: 0 8%;
+        }
+        /* @media all and (min-width:30em) */
+        
+        .landing-paragraphs .wysiwyg--field-webny-wysiwyg-body {
+            font-size: 16px;
+        }
+        
+        .text-align-center {
+            text-align: center;
+        }
+        /* @media all and (min-width:30em) */
+        
+        .hero-has-image {
+            background-color: #128ec3;
+            opacity: 0.9;
+        }
+        /* @media all and (min-width:30em) */
+        
+        .hero-header,
+        .hero-no-image,
+        .hero-landing {
+            min-height: 385px;
+        }
+        
+        .hero-layout .hero-header {
+            background-position: 50% 0;
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: #fff;
+            min-height: 256px;
+            overflow: hidden;
+            position: relative;
+        }
+        /* @media all and (min-width:48em) */
+        
+        .hero-layout .hero-has-image {
+            overflow: hidden;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+        }
+        /* @media all and (min-width:48em) */
+        
+        .hero-layout .hero-inner {
+            margin: 0;
+            padding: 0 2%;
+            width: 100%;
+        }
+        
+        .hero-layout .hero-has-image .hero-image {
+            overflow: hidden;
+            width: 100%;
+        }
+        /* @media all and (min-width:48em) */
+        
+        .hero-layout .hero-has-image,
+        .hero-layout .hero-has-image .hero-image,
+        .hero-layout .hero-has-image-content {
+            min-height: 510px;
+        }
+        /* @media all and (min-width:60em) */
+        
+        .hero-layout .hero-inner {
+            padding: 0 30px 0 60px;
+        }
+        /* @media all and (min-width:60em) */
+        
+        .hero-layout .hero-has-image,
+        .hero-layout .hero-has-image .hero-image,
+        .hero-layout .hero-has-image-content {
+            min-height: 427px;
+        }
+        /* @media all and (min-width:48em) */
+        
+        .hero-layout .hero-news-inner.hero-has-image-content,
+        .hero-layout .hero-ipage-inner.hero-has-image-content,
+        .hero-layout .hero-landing-inner.hero-has-image-content,
+        .hero-layout .hero-event--inner.hero-has-image-content {
+            background: none;
+            position: relative;
+        }
+        /* @media all and (min-width:60em) */
+        
+        .front .hero-layout .hero-landing.hero-has-image,
+        .front .hero-layout .hero-has-image .hero-image,
+        .front .hero-layout .hero-has-image,
+        .front .hero-layout .hero-has-image .hero-image,
+        .front .hero-layout .hero-has-image-content {
+            min-height: 512px;
+            height: 512px;
+        }
+        
+        .hero-layout .hero-news-inner,
+        .hero-layout .hero-ipage-inner,
+        .hero-layout .hero-landing-inner,
+        .hero-layout .hero-event--inner {
+            padding: 40px 8%;
+            position: relative;
+            top: 0px;
+            left: 0px;
+            background: none;
+        }
+        
+        .hero-layout .hero-news-inner,
+        .hero-layout .hero-ipage-inner,
+        .hero-layout .hero-landing-inner,
+        .hero-layout .hero-event--inner {
+            position: absolute;
+        }
+        
+        .hero-layout .hero-has-image-content {
+            min-height: 256px;
+        }
+        /* @media all and (min-width:48em) */
+        
+        .hero-layout .hero-news-inner,
+        .hero-layout .hero-ipage-inner,
+        .hero-layout .hero-landing-inner,
+        .hero-layout .hero-event--inner {
+            position: absolute;
+            padding-top: 60px !important;
+        }
+        
+        .hero-layout .hero-news-inner.hero-has-image-content,
+        .hero-layout .hero-ipage-inner.hero-has-image-content,
+        .hero-layout .hero-landing-inner.hero-has-image-content,
+        .hero-layout .hero-event--inner.hero-has-image-content {
+            position: relative;
+            z-index: 3;
+            background-color: black;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+        
+        .hero-layout h1,
+        .hero-layout h2 {
+            color: #fff;
+            line-height: 32px;
+            font-size: 28px;
+            width: auto;
+            margin-bottom: 10px;
+            position: relative;
+            z-index: 3;
+        }
+        /* @media all and (min-width:48em) */
+        
+        .hero-layout h1,
+        .hero-layout h2 {
+            font-size: 48px;
+            line-height: 60px;
+            color: #fff;
+            font-weight: 800;
+        }
+        /* @media all and (min-width:30em) */
+        
+        .hero-layout .hero-landing-inner h2,
+        .hero-layout .hero-landing-inner h1,
+        .hero-layout .hero-ipage-inner h2,
+        .hero-layout .hero-ipage-inner h1 {
+            width: 100%;
+            max-width: 690px;
+        }
+        /* @media all and (min-width:48em) */
+        
+        .hero-layout .hero-inner h1,
+        .hero-layout .hero-inner h2 {
+            width: 66%;
+        }
+        
+        .hero-layout .hero-summary {
+            font-size: 1em;
+            color: #fff;
+            position: relative;
+            z-index: 5;
+            text-align: left;
+            width: 100%;
+        }
+        /* @media all and (min-width:48em) */
+        
+        .hero-layout .hero-summary {
+            font-size: 1em;
+            color: #fff;
+        }
+        /* @media all and (min-width:30em) */
+        
+        .hero-layout .hero-landing-inner .hero-summary,
+        .hero-layout .hero-ipage-inner .hero-summary {
+            width: 100%;
+            max-width: 690px;
+        }
+        /* @media all and (min-width:48em) */
+        
+        .hero-layout .hero-ipage-inner .hero-summary,
+        .hero-layout .hero-landing-inner .hero-summary {
+            width: 66%;
+        }
+        
+        .hero-layout .hero-buttons,
+        .hero-layout .hero-keywords {
+            margin-top: 0px;
+            padding: 10px 15px 30px 0px;
+        }
+        
+        .hero-layout .hero-buttons div {
+            margin: 17px 0;
+            padding-top: 0px;
+        }
+        /* @media all and (min-width:48em) */
+        
+        .hero-layout .hero-buttons div {
+            display: inline-block;
+            margin: 30px 20px 0 0;
+        }
+        
+        .hero-layout .hero-buttons a {
+            font: 14px/4 'Proxima Nova';
+            font-weight: bold;
+            color: #ffffff;
+            cursor: pointer;
+            text-decoration: none;
+            display: block;
+            background: transparent;
+            border: 1px solid rgba(255, 255, 255, 0.7);
+            text-align: center;
+            padding: 0 20px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            width: auto;
+        }
+        /* @media all and (min-width:48em) */
+        
+        .hero-layout .hero-buttons a {
+            min-width: 200px;
+        }
+        /* @media all and (min-width:48em) */
+        
+        .hero-layout .hero-has-image div {
+            height: 100%;
+        }
+        /* @media all and (min-width:30em) */
+        
+        .hero-layout .hero-has-image .hero-bkg {
+            /* background: url(/profiles/custom/webny/themes/custom/webny_theme/icons/bkg-gradient.png) repeat-y scroll left top !important; */
+            height: 100%;
+            opacity: 0.9;
+            position: absolute;
+            background-image: url('./image/backgroundimage2.jpg');
+            background-size: contain;
+            top: 0px;
+            left: 0px;
+            width: 100%;
+            z-index: 2;
+        }
+        /* @media all and (min-width:48em) */
+        
+        .hero-layout .hero-has-image .hero-bkg {
+            /* background: url(/profiles/custom/webny/themes/custom/webny_theme/icons/bkg-gradient.png) repeat-y scroll left top !important; */
+            height: 100%;
+            opacity: 0.9;
+            position: absolute;
+            background-image: url('./image/backgroundimage2.jpg');
+            top: 0px;
+            left: 0px;
+            width: 100%;
+            z-index: 2;
+        }
+        
+        img,
+        legend {
+            border: 0;
+        }
+        
+        .layout-container img {
+            max-width: 100%;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            height: auto;
+        }
+        
+        .hero-layout .hero-has-image .hero-image img {
+            position: absolute;
+            left: -100%;
+            right: -100%;
+            margin: auto;
+            height: auto;
+            min-height: 100%;
+            min-width: 100%;
+            max-width: none;
+            width: auto;
+        }
+    </style>
+</head>
+
+<body class="body-sidebars-none" style="top: 0px; position: relative; min-height: 100%;">
+    <!DOCTYPE html>
+    <html class=" js" lang="en" style="height: 100%;" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+
+    <head>
+        <title></title>
+        <style>
+            article,
+            aside,
+            details,
+            figcaption,
+            figure,
+            footer,
+            header,
+            hgroup,
+            main,
+            menu,
+            nav,
+            section,
+            summary {
+                display: block;
+            }
+            
+            .webny-global-header {
+                color: #fff;
+                font-size: 14px;
+                line-height: 17px;
+                letter-spacing: 0.01em;
+                position: relative;
+                font-weight: bold;
+                font-style: normal;
+            }
+            
+            .webny-global-header {
+                background-color: #24387e;
+            }
+            /* @media all and (min-width:768px) */
+            
+            .webny-global-header.horizontal {
+                font-weight: bold;
+            }
+            /* @media all and (min-width:768px) */
+            
+            .webny-global-header.horizontal.unstacked {
+                font-size: 14px;
+                line-height: 18px;
+                min-height: 80px;
+            }
+            /* @media all and (min-width:1024px) */
+            
+            .webny-global-header.unstacked.horizontal,
+            .webny-global-header.stacked.horizontal {
+                height: auto;
+                font-size: 16px;
+            }
+            /* @media all and (min-width:1024px) */
+            
+            .webny-global-header.unstacked.horizontal {
+                min-height: 75px;
+            }
+            
+            body {
+                margin: 0;
+            }
+            
+            html {
+                font-family: sans-serif;
+                -ms-text-size-adjust: 100%;
+                -webkit-text-size-adjust: 100%;
+            }
+            
+            html,
+            body {
+                min-height: 100%;
+                height: 100%;
+                padding: 0;
+                margin: 0;
+                font-size: 18px;
+            }
+            
+            body {
+                font-family: "Proxima Nova", Arial, sans-serif;
+                line-height: 27px;
+            }
+            
+            .webny-global-header .nav-toggle {
+                text-indent: -9999px;
+                color: transparent;
+            }
+            /* @media all and (min-width:768px) */
+            
+            .webny-global-header.horizontal.unstacked .nav-toggle {
+                display: none;
+            }
+            
+            .webny-global-header .webny-global-logo {
+                height: 80px;
+            }
+            /* @media all and (min-width:768px) */
+            
+            .webny-global-header.horizontal.unstacked .webny-global-logo {
+                display: inline-block;
+                height: 80px;
+            }
+            /* @media all and (min-width:1024px) */
+            
+            .webny-global-header.unstacked.horizontal .webny-global-logo {
+                display: inline-block;
+                min-height: 75px;
+            }
+            
+            .layout-container ul {
+                padding: 0 0 0 30px;
+                margin: 0 0 1px;
+            }
+            
+            .webny-global-header ul {
+                padding: 0px 0px;
+                margin: 0;
+                display: none;
+            }
+            
+            .webny-global-header>ul {
+                position: absolute;
+                width: 255px;
+                border-top: 1px solid #fff;
+                z-index: 200;
+            }
+            
+            .webny-global-header>ul {
+                background-color: #24387e;
+            }
+            /* @media all and (min-width:1024px) */
+            
+            .webny-global-header.horizontal>ul,
+            .webny-global-header.horizontal h1 {
+                display: inline-block;
+            }
+            /* @media all and (min-width:768px) */
+            
+            .webny-global-header.horizontal.unstacked>ul {
+                position: relative;
+                display: block;
+                border-top: 0;
+                width: auto;
+                vertical-align: bottom;
+            }
+            /* @media all and (min-width:768px) */
+            
+            .webny-global-header.horizontal.unstacked>ul {
+                padding: 23px 0 23px 15px;
+                display: inline-block;
+            }
+            /* @media all and (min-width:1024px) */
+            
+            .webny-global-header.unstacked.horizontal>ul,
+            .webny-global-header.stacked.horizontal>ul {
+                padding: 0 0 0 60px;
+            }
+            /* @media all and (min-width:1024px) */
+            
+            .webny-global-header.unstacked.horizontal>ul {
+                padding: 0 0 0 45px;
+            }
+            
+            .layout-container ul li {
+                margin: 4px 0;
+                padding: 0;
+            }
+            
+            .webny-global-header ul li {
+                padding: 0;
+                margin: 0;
+            }
+            
+            .webny-global-header>ul li {
+                display: block;
+                list-style: none;
+                position: relative;
+            }
+            /* @media all and (min-width:768px) */
+            
+            .webny-global-header.horizontal.unstacked>ul li,
+            .webny-global-header.horizontal.unstacked>ul li.hidden {
+                display: inline-block;
+                vertical-align: bottom;
+            }
+            
+            a {
+                background-color: transparent;
+            }
+            
+            a:active,
+            a:hover {
+                outline: 0;
+            }
+            
+            a,
+            a:link,
+            a:visited {
+                text-decoration: none;
+                color: #007ac2;
+                font-family: "Proxima Nova", Arial, sans-serif;
+            }
+            
+            a:hover,
+            a:hover:link,
+            a:hover:visited {
+                text-decoration: underline;
+            }
+            
+            .webny-global-header a,
+            .webny-global-header a:link,
+            .webny-global-header a:visited,
+            .webny-global-header a:hover,
+            .webny-global-header a:active {
+                color: #fff;
+                text-decoration: none;
+            }
+            
+            .webny-global-header>ul li a:link,
+            .webny-global-header>ul li a:visited,
+            .webny-global-header>ul li span {
+                display: block;
+                padding: 30px 48px 30px 30px;
+                font-family: "Proxima Nova", Arial, sans-serif;
+                border-bottom-width: 1px;
+                border-bottom-style: solid;
+                text-decoration: none;
+                color: #fff;
+            }
+            
+            .webny-global-header>ul li ul>li>a {
+                cursor: pointer;
+            }
+            
+            .webny-global-header>ul a,
+            .webny-global-header>ul span {
+                border-bottom-color: #455691;
+            }
+            
+            .webny-global-header>ul a:hover,
+            .webny-global-header>ul a:active,
+            .webny-global-header>ul span:hover {
+                background-color: rgba(0, 0, 0, 0.5);
+            }
+            
+            .webny-global-header>ul li a:hover {
+                text-decoration: none;
+                color: #fff;
+                cursor: pointer;
+            }
+            /* @media all and (min-width:768px) */
+            
+            .webny-global-header.horizontal.unstacked>ul a,
+            .webny-global-header.horizontal.unstacked>ul span {
+                border-bottom-width: 0px;
+                padding: 8px 15px;
+            }
+            /* @media all and (min-width:768px) */
+            
+            .webny-global-header.horizontal.unstacked>ul>li>a:hover {
+                text-decoration: underline;
+            }
+            /* @media all and (min-width:768px) */
+            
+            .webny-global-header.horizontal.unstacked>ul li ul li a,
+            .webny-global-header.horizontal.unstacked>ul li ul li span,
+            .webny-global-header.horizontal.unstacked>ul li.hidden ul li a,
+            .webny-global-header.horizontal.unstacked>ul li.hidden ul li span {
+                padding: 15px;
+            }
+            /* @media all and (min-width:1024px) */
+            
+            .webny-global-header.unstacked.horizontal>ul li a,
+            .webny-global-header.unstacked.horizontal>ul li a:link,
+            .webny-global-header.unstacked.horizontal>ul li a:visited,
+            .webny-global-header.unstacked.horizontal>ul li a:hover,
+            .webny-global-header.unstacked.horizontal>ul li a:active,
+            .webny-global-header.unstacked.horizontal>ul li span {
+                height: 75px;
+            }
+            /* @media all and (min-width:768px) */
+            
+            .webny-global-header.horizontal.unstacked>ul li ul li a,
+            .webny-global-header.horizontal.unstacked>ul li ul li a:link,
+            .webny-global-header.horizontal.unstacked>ul li ul li a:visited,
+            .webny-global-header.horizontal.unstacked>ul li ul li a:hover,
+            .webny-global-header.horizontal.unstacked>ul li ul li a:active,
+            .webny-global-header.horizontal.unstacked>ul li ul li span {
+                font-size: 12px;
+                line-height: 17px;
+                font-weight: bold;
+            }
+            /* @media all and (min-width:1024px) */
+            
+            .webny-global-header.unstacked.horizontal>ul li ul li a,
+            .webny-global-header.unstacked.horizontal>ul li ul li a:link,
+            .webny-global-header.unstacked.horizontal>ul li ul li a:visited,
+            .webny-global-header.unstacked.horizontal>ul li ul li a:hover,
+            .webny-global-header.unstacked.horizontal>ul li ul li a:active,
+            .webny-global-header.unstacked.horizontal>ul li ul li span,
+            .webny-global-header.stacked.horizontal>ul li ul li a,
+            .webny-global-header.stacked.horizontal>ul li ul li a:link,
+            .webny-global-header.stacked.horizontal>ul li ul li a:visited,
+            .webny-global-header.stacked.horizontal>ul li ul li a:hover,
+            .webny-global-header.stacked.horizontal>ul li ul li a:active,
+            .webny-global-header.stacked.horizontal>ul li ul li span {
+                font-size: 16px;
+                line-height: 20px;
+                height: auto;
+                display: block;
+                padding: 15px;
+            }
+            /* @media all and (min-width:768px) */
+            
+            .webny-global-header.horizontal.unstacked>ul li a,
+            .webny-global-header.horizontal.unstacked>ul li a:link,
+            .webny-global-header.horizontal.unstacked>ul li a:visited,
+            .webny-global-header.horizontal.unstacked>ul li a:hover,
+            .webny-global-header.horizontal.unstacked>ul li a:active,
+            .webny-global-header.horizontal.unstacked>ul li span {
+                font-weight: bold;
+                font-size: 14px;
+                letter-spacing: 0.03em;
+                padding-left: 15px;
+                color: #fff;
+            }
+            /* @media all and (min-width:1024px) */
+            
+            .webny-global-header.unstacked.horizontal>ul>li>a:hover,
+            .webny-global-header.stacked.horizontal>ul>li>a:hover {
+                text-decoration: underline;
+                color: #fff;
+            }
+            /* @media all and (min-width:1024px) */
+            
+            .webny-global-header.unstacked.horizontal>ul li a,
+            .webny-global-header.unstacked.horizontal>ul li a:link,
+            .webny-global-header.unstacked.horizontal>ul li a:visited,
+            .webny-global-header.unstacked.horizontal>ul li a:hover,
+            .webny-global-header.unstacked.horizontal>ul li a:active,
+            .webny-global-header.unstacked.horizontal>ul li span,
+            .webny-global-header.stacked.horizontal>ul li a,
+            .webny-global-header.stacked.horizontal>ul li a:link,
+            .webny-global-header.stacked.horizontal>ul li a:visited,
+            .webny-global-header.stacked.horizontal>ul li a:hover,
+            .webny-global-header.stacked.horizontal>ul li a:active,
+            .webny-global-header.stacked.horizontal>ul li span {
+                font-size: 16px;
+                letter-spacing: 0.03em;
+                display: table-cell;
+                height: 75px;
+                vertical-align: middle;
+                padding: 0 15px;
+                color: #fff;
+            }
+            /* @media all and (min-width:768px) */
+            
+            .webny-global-header.horizontal.unstacked ul li a:hover,
+            .webny-global-header.horizontal.unstacked ul li a:active,
+            .webny-global-header.horizontal.unstacked ul li span:hover {
+                background-color: #24387e;
+            }
+            /* @media only screen and (min-width:1024px) */
+            
+            .webny-global-header.horizontal.unstacked ul li a:hover,
+            .webny-global-header.horizontal.unstacked ul li a:active,
+            .webny-global-header.horizontal.unstacked ul li span:hover,
+            .webny-global-header.horizontal.stacked ul li a:hover,
+            .webny-global-header.horizontal.stacked ul li a:active,
+            .webny-global-header.horizontal.stacked ul li span:hover {
+                background-color: #24387e;
+            }
+            
+            .layout-container ul ul {
+                padding: 0 0 0 22.5px;
+            }
+            
+            .webny-global-header>ul ul {
+                background-color: #24387e;
+            }
+            
+            .webny-global-header>ul li ul {
+                padding: 0;
+                display: none;
+                position: initial;
+                z-index: 5;
+                width: 100%;
+            }
+            /* @media all and (min-width:768px) */
+            
+            .webny-global-header.horizontal.unstacked>ul li ul,
+            .webny-global-header.horizontal.unstacked>ul li.hidden ul {
+                position: absolute;
+                width: auto;
+                border-top: 1px solid #fff;
+            }
+            /* @media all and (min-width:768px) */
+            
+            .webny-global-header.horizontal.unstacked>ul li ul {
+                width: 170px;
+            }
+            /* @media all and (min-width:1024px) */
+            
+            .webny-global-header.unstacked.horizontal>ul li ul,
+            .webny-global-header.stacked.horizontal>ul li ul {
+                padding: 5px 0px;
+                top: auto;
+                width: 300px;
+            }
+            /* @media all and (min-width:768px) */
+            
+            .webny-global-header.horizontal.unstacked>ul li ul li,
+            .webny-global-header.horizontal.unstacked>ul li.hidden ul li {
+                display: block;
+            }
+            /* @media all and (min-width:1024px) */
+            
+            .webny-global-header.unstacked.horizontal>ul li ul li,
+            .webny-global-header.stacked.horizontal>ul li ul li {
+                height: auto;
+            }
+            /* @media all and (min-width:1024px) */
+            
+            .webny-global-header.unstacked.horizontal>ul li ul li.gnav-toplink,
+            .webny-global-header.stacked.horizontal>ul li ul li.gnav-toplink {
+                display: none;
+            }
+            
+            .webny-global-header.unstacked.horizontal>ul li ul li.gnav-toplink,
+            .webny-global-header.stacked.horizontal>ul li ul li.gnav-toplink:ho {
+                display: none;
+            }
+            
+            img,
+            legend {
+                border: 0;
+            }
+            
+            .layout-container img {
+                max-width: 100%;
+                -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+                height: auto;
+            }
+            
+            .webny-global-header .webny-global-logo img {
+                padding: 17px 0 18px 0;
+            }
+            /* @media all and (min-width:768px) */
+            
+            .webny-global-header.horizontal.unstacked .webny-global-logo img {
+                padding: 17px 0 18px 30px;
+            }
+            /* @media all and (min-width:1024px) */
+            
+            .webny-global-header.unstacked.horizontal .webny-global-logo img {
+                padding: 15px 0 15px 60px;
+            }
+            
+            .webny-global-header .nav-toggle a,
+            .webny-global-header .nav-toggle a:link,
+            .webny-global-header .nav-toggle a:visited,
+            .webny-global-header .nav-toggle a:hover,
+            .webny-global-header .nav-toggle a:active {
+                width: 65px;
+                height: 80px;
+                display: block;
+                float: left;
+                background-image: url("/profiles/custom/webny/themes/custom/webny_theme/icons/icon-menu.png");
+                background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), to(transparent)), url("/profiles/custom/webny/themes/custom/webny_theme/icons/icon-menu.svg");
+                background-image: -webkit-linear-gradient(transparent, transparent), url("/profiles/custom/webny/themes/custom/webny_theme/icons/icon-menu.svg");
+                background-image: -o-linear-gradient(transparent, transparent), url(/profiles/custom/webny/themes/custom/webny_theme/icons/icon-menu.svg);
+                background-image: linear-gradient(transparent, transparent), url("/profiles/custom/webny/themes/custom/webny_theme/icons/icon-menu.svg");
+                background-size: 20px;
+                background-repeat: no-repeat;
+                background-position: 50%;
+            }
+        </style>
+    </head>
+
+    <body class="body-sidebars-none" style="top: 0px; position: relative; min-height: 100%;">
+        <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas="">
+            <div class="layout-container">
+                <header role="banner">
+                    <nav class="webny-global-header horizontal unstacked" id="webny-global-header" aria-label="primary-site">
+                        <div class="nav-toggle">
+                            <a id="webny-menu-control" role="button" href="#">Navigation menu</a>
+                        </div>
+                        <div class="webny-global-logo">
+                            <a href="/"><img alt="Taste NY" src="/sites/g/files/oee761/files/styles/global_navigation_logo/public/global_navigation_logo/logo0.png"></a>
+                        </div>
+                        <ul class="gnav-ul">
+                            <li class="gnav-mitems gnav-topli" aria-expanded="false"><a href="/taste-ny-store-locations">Store Locations</a>
+                                <ul class="gnav-items-ul" aria-hidden="true">
+                                    <li class="gnav-toplink"><a href="/taste-ny-store-locations">Store Locations</a></li>
+                                    <li><a href="/new-york-state-welcome-centers">Welcome Centers</a></li>
+                                </ul>
+                            </li>
+                            <li class="gnav-mitems gnav-topli solotop" aria-expanded="false"><a href="/events">Events</a></li>
+                            <li class="gnav-mitems gnav-topli solotop" aria-expanded="false"><a href="/cuisine-and-beverage-trails-0">Cuisine &amp; Beverage Trails</a></li>
+                            <li class="gnav-mitems gnav-topli solotop" aria-expanded="false"><a href="/news">News</a></li>
+                            <li class="gnav-mitems gnav-topli solotop" aria-expanded="false"><a href="/helpful-links">Helpful Links</a></li>
+                        </ul>
+                    </nav>
+                </header>
+            </div>
+        </div>
+    </body>
+
+    </html>
+
+    <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas="">
+        <div class="layout-container front">
+            <main role="main">
+                <a tabindex="-1" id="main-content"></a>
+                <div class="layout-content">
+                    <div>
+                        <div class="hidden" data-drupal-messages-fallback=""></div>
+
+                        <!-- Logic to Display or Not to Display the Hero section -->
+
+                        <article class="hero-layout" role="article" about="/taste-ny-homepage" data-history-node-id="51">
+
+                            <div class="hero-inner hero-landing-inner hero-has-image-content" style="background-image:url('./image/backgroundimage2.jpg)">
+
+                                <!-- LIVE NOW FOR BRIGHTCOVE -->
+
+                                <!-- HEADLINE LABEL -->
+                                <h2>Growing New York's Craft Beverage Industry</h2>
+
+                                <div class="hero-summary">
+
+                                    <div class="webny-card-teaser">Under a new proposal from Governor Cuomo, New York beer, wine, mead and spirits may be coming to a movie theater near you.
+                                    </div>
+
+                                </div>
+
+                                <!-- HERO BUTTONS -->
+                                <div class="hero-buttons">
+
+
+
+                                    <div><a href="https://www.governor.ny.gov/news/governor-cuomo-unveils-19th-proposal-2020-state-state-growing-new-yorks-craft-beverage">Learn
+                                                More</a></div>
+
+
+
+
+                                </div>
+                            </div>
+
+                            <!-- VIDEO PLACEMENT -->
+
+
+
+
+
+
+                        </article>
+
+
+
+                        <div class="page-paragraphs landing-paragraphs">
+                            <div class="page-paragraphs-in">
+
+                                <div>
+                                    <div>
+                                        <div class="paragraph paragraph--type--webny-wysiwyg-pgtype paragraph--view-mode--default">
+
+                                            <div class="wysiwyg--field-webny-wysiwyg-title">The Official Eat-Local, Drink-Local Program for New York State</div>
+
+                                            <div class="wysiwyg--field-webny-wysiwyg-headline">Taste NY</div>
+
+                                            <div class="wysiwyg--field-webny-wysiwyg-body">
+                                                <p class="text-align-center"><span><span><span><span><span>Taste NY,
+                                                                            launched by Governor Andrew M. Cuomo in
+                                                                            2013, highlights the quality, diversity, and
+                                                                            economic impact of food and beverages grown,
+                                                                            produced, or processed in New York State.
+                                                                            Taste NY aims to create new opportunities
+                                                                            for producers through events, retail
+                                                                            locations, and partnerships.</span></span>
+                                                    </span>
+                                                    </span>
+                                                    </span>
+                                                </p>
+
+                                                <p class="text-align-center">
+                                                    <span><span><span><span><span><span><span><span><span><span><span><span><span>The
+                                                                                                            agricultural
+                                                                                                            industry in
+                                                                                                            New York
+                                                                                                            State
+                                                                                                            continues to
+                                                                                                            grow at an
+                                                                                                            exceptional
+                                                                                                            rate. The
+                                                                                                            state boasts
+                                                                                                            more than
+                                                                                                            seven
+                                                                                                            million
+                                                                                                            acres of
+                                                                                                            farmland and
+                                                                                                            36,000
+                                                                                                            farms.
+                                                                                                            It&nbsp;is
+                                                                                                            the second
+                                                                                                            largest
+                                                                                                            producer of
+                                                                                                            apples and
+                                                                                                            maple syrup
+                                                                                                            in the
+                                                                                                            country, and
+                                                                                                            the top
+                                                                                                            honey
+                                                                                                            producer in
+                                                                                                            the
+                                                                                                            Northeast.</span></span>
+                                                    </span>
+                                                    </span>
+                                                    </span>
+                                                    </span>
+                                                    </span>
+                                                    </span>
+                                                    </span>
+                                                    </span>
+                                                    </span>
+                                                    </span>
+                                                    </span>
+                                                </p>
+
+                                                <p class="text-align-center"><span><span>Additionally, the state
+                                                                ranks first in the U.S. for the number of hard cider
+                                                                producers, second in craft distillers, third in
+                                                                breweries, and fourth for the total number of
+                                                                wineries.&nbsp;</span></span>
+                                                </p>
+
+                                                <p class="text-align-center">
+                                                    <span><span><span><span><span><span><span><span><span><span><span><span><span>We
+                                                                                                            encourage
+                                                                                                            New Yorkers
+                                                                                                            and visitors
+                                                                                                            alike to
+                                                                                                            experience
+                                                                                                            the
+                                                                                                            delicious
+                                                                                                            homegrown
+                                                                                                            goodness of
+                                                                                                            Taste
+                                                                                                            NY.</span></span>
+                                                    </span>
+                                                    </span>
+                                                    </span>
+                                                    </span>
+                                                    </span>
+                                                    </span>
+                                                    </span>
+                                                    </span>
+                                                    </span>
+                                                    </span>
+                                                    </span>
+                                                </p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="paragraph paragraph--type--webny-card-paragraph-type paragraph--view-mode--default">
+
+                                            <div class="webny-card-frame-inner">
+                                                <h2>
+                                                    <span class="frame-title">
+                                                            Taste NY
+                                                        </span>
+                                                    <span class="frame-headline">
+                                                            Find Products Near You
+                                                        </span>
+                                                </h2>
+
+                                            </div>
+
+                                            <div>
+                                                <div>
+                                                    <article class="webny-card">
+
+                                                        <div class="webny-card" role="article" about="/taste-ny-events" data-history-node-id="1751">
+
+                                                            <a href="/taste-ny-events" target="_self">
+                                                                <div class="card-image" style="background-image: url();">
+                                                                </div>
+                                                            </a>
+
+                                                            <div class="card-content">
+                                                                <div class="card-content-top">
+
+
+                                                                    <h1>
+                                                                        <a href="/taste-ny-events" target="_self" rel="bookmark">
+                                                                                Taste NY Events
+                                                                            </a>
+                                                                    </h1>
+
+
+
+                                                                </div>
+                                                                <div class="webny-card-description">
+                                                                    <p>Search for events across New York State featuring Taste NY products and local businesses.
+                                                                    </p>
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="webny-card-cta">
+                                                            <span class="icon-right-caret">
+                                                                    <a title="Taste NY Events" href="/events">Find an
+                                                                        Upcoming Event</a>
+                                                                </span>
+                                                        </div>
+                                                    </article>
+                                                </div>
+                                                <div>
+                                                    <article class="webny-card">
+
+                                                        <div class="webny-card" role="article" about="/cuisine-and-beverage-trails-0" data-history-node-id="1606">
+
+                                                            <a href="/cuisine-and-beverage-trails-0" target="_self">
+                                                                <div class="card-image" style="background-image: url('');">
+                                                                </div>
+                                                            </a>
+
+                                                            <div class="card-content">
+                                                                <div class="card-content-top">
+
+
+                                                                    <h1>
+                                                                        <a href="/cuisine-and-beverage-trails-0" target="_self" rel="bookmark">
+                                                                                Cuisine and Beverage Trails
+                                                                            </a>
+                                                                    </h1>
+
+
+
+                                                                </div>
+                                                                <div class="webny-card-description">
+                                                                    <p><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span>Find
+                                                                                                                                                    fun
+                                                                                                                                                    and
+                                                                                                                                                    new
+                                                                                                                                                    experiences
+                                                                                                                                                    by
+                                                                                                                                                    visiting
+                                                                                                                                                    New
+                                                                                                                                                    York's
+                                                                                                                                                    craft
+                                                                                                                                                    beverage
+                                                                                                                                                    and
+                                                                                                                                                    cuisine
+                                                                                                                                                    trails.</span></span>
+                                                                        </span>
+                                                                        </span>
+                                                                        </span>
+                                                                        </span>
+                                                                        </span>
+                                                                        </span>
+                                                                        </span>
+                                                                        </span>
+                                                                        </span>
+                                                                        </span>
+                                                                        </span>
+                                                                        </span>
+                                                                        </span>
+                                                                        </span>
+                                                                        </span>
+                                                                        </span>
+                                                                    </p>
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="webny-card-cta">
+                                                            <span class="icon-right-caret">
+                                                                    <a title="Cuisine and Beverage Trails"
+                                                                        href="/cuisine-and-beverage-trails">Find a
+                                                                        Beverage Trail</a>
+                                                                </span>
+                                                        </div>
+                                                    </article>
+                                                </div>
+                                                <div>
+                                                    <article class="webny-card">
+
+                                                        <div class="webny-card" role="article" about="/taste-ny-store-locations-0" data-history-node-id="1746">
+
+                                                            <a href="/taste-ny-store-locations-0" target="_self">
+                                                                <div class="card-image" style="background-image: url('/sites/g/files/oee761/files/styles/card_vertical/public/media/2018/09/fingerlakeswelcomecentertaste.jpg?h=b5f6a62e&amp;itok=UQa4aCWL');">
+                                                                </div>
+                                                            </a>
+
+                                                            <div class="card-content">
+                                                                <div class="card-content-top">
+
+
+                                                                    <h1>
+                                                                        <a href="/taste-ny-store-locations-0" target="_self" rel="bookmark">
+                                                                                Taste NY Store Locations
+                                                                            </a>
+                                                                    </h1>
+
+
+
+                                                                </div>
+                                                                <div class="webny-card-description">
+                                                                    <p>Discover local and homegrown products in Taste NY stores across the State.&nbsp;</p>
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="webny-card-cta">
+                                                            <span class="icon-right-caret">
+                                                                    <a title="Taste NY Store Locations"
+                                                                        href="/taste-ny-store-locations">Search for a
+                                                                        Store Near You</a>
+                                                                </span>
+                                                        </div>
+                                                    </article>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div>
+
+                                        <div class="paragraph paragraph--type--webny-get-involved-pgtype paragraph--view-mode--default default">
+
+
+
+                                            <div class="get-involved--field-webny-get-involved-title">New York State Grown &amp; Certified</div>
+
+
+
+                                            <div class="get-involved--field-webny-get-inv-description">A statewide food certification program to promote quality, locally-grown products and to strengthen confidence in New York agriculture.</div>
+
+                                            <div class="get-involved--cta-wrapper">
+
+                                                <div>
+                                                    <div class="get-involved--field-webny-get-inv-cta">
+                                                        <a title="Learn More" href="https://certified.ny.gov/">Learn
+                                                                More</a>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div>
+
+                                        <div class="paragraph paragraph--type--webny-get-involved-pgtype paragraph--view-mode--default secondary">
+
+
+
+                                            <div class="get-involved--field-webny-get-involved-title">Join the Team
+                                            </div>
+
+
+
+                                            <div class="get-involved--field-webny-get-inv-headline">Participate in Taste NY</div>
+
+
+
+                                            <div class="get-involved--field-webny-get-inv-description">Join the Taste NY program to find opportunities to showcase your homegrown products.
+                                            </div>
+
+                                            <div class="get-involved--cta-wrapper">
+
+                                                <div>
+                                                    <div class="get-involved--field-webny-get-inv-cta">
+                                                        <a title="Taste NY Participation Form" href="/form/taste-ny-participation-form">Taste NY
+                                                                Participation Form</a>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <!-- VIEWFIELD -->
+
+                    </div>
+
+                </div>
+
+
+            </main>
+        </div>
+    </div>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
